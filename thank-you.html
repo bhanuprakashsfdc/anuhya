@@ -25,7 +25,7 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
-  <META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">
+
 </head>
 
 <body>
@@ -1210,79 +1210,24 @@
 
           </div>
 
-          <div class="col-lg-6 php-email-form">
-            <form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
-
-              <input type=hidden name="oid" value="00D2x000004uBnW">
-              <input type=hidden name="retURL" value="https://anuhyadigital.com/thank-you.html">
-              
-              <!--  ----------------------------------------------------------------------  -->
-              <!--  NOTE: These fields are optional debugging elements. Please uncomment    -->
-              <!--  these lines if you wish to test in debug mode.                          -->
-              <!--  <input type="hidden" name="debug" value=1>                              -->
-              <!--  <input type="hidden" name="debugEmail"                                  -->
-              <!--  value="anuhyadigital@gmail.com">                                        -->
-              <!--  ----------------------------------------------------------------------  -->
-              <div class="row gy-4">
-                <div class="col-md-6">
-              <input  id="first_name" maxlength="40" name="first_name" size="30" type="text" placeholder="Your First Name"/><br>    
-              </div>
-              <div class="col-md-6">   
-              <input  id="last_name" maxlength="80" name="last_name" size="30" type="text" placeholder="Your Last Name" required/><br>
-              </div>
-              <div class="col-md-6">
-              <input  id="email" maxlength="80" name="email" size="30" type="text" placeholder="Your Email"required/><br>
-              </div>
-              <div class="col-md-6">
-                <input  id="phone" maxlength="40" name="phone" size="30" type="text" placeholder="Your phone number"/><br>
-              </div>
-              <div class="col-md-12">
-              <input  id="company" maxlength="40" name="company" size="60" type="text" placeholder="Add your company name"/><br>
-            </div>
-              <div class="col-md-12">
-             <input  id="00N2x000006WIXH" maxlength="20" name="00N2x000006WIXH" size="60" type="text" placeholder="Add your Linkedin URL"/><br>
-            </div>
-             <div class="col-md-12">
-              <input  id="00N2x000002rwFT" maxlength="80" name="00N2x000002rwFT" size="60" type="text" required placeholder="Add your Subject"/><br>
-            </div>
-              <div class="col-md-12">
-              <textarea  id="00N2x000002rwFn" name="00N2x000002rwFn" rows="3" type="text" wrap="soft" required placeholder="Add your queries" size="60"></textarea><br>
-            </div>
-              <div class="col-md-12">
-              <input type="submit" name="submit" class="button-web">
-            </div>
-              </div>
-              </form>
-              
-
-
-
-          <!--
+          <div class="col-lg-6">
             <form action="forms/contact.php" method="post" class="php-email-form">
               <div class="row gy-4">
 
                 <div class="col-md-6">
-                  <input type="text" name="first_name" class="form-control" placeholder="Your First Name" required id="first_name">
+                  <input type="text" name="name" class="form-control" placeholder="Your Name" required>
                 </div>
 
                 <div class="col-md-6 ">
-                  <input type="text" class="form-control" name="last_name" placeholder="Your Last Name" required id="last_name">
-                </div>
-
-                <div class="col-md-6">
-                  <input type="text" name="phone" class="form-control" placeholder="Your Phone Number" required id="phone">
-                </div>
-
-                <div class="col-md-6 ">
-                  <input type="email" class="form-control" name="email" placeholder="Your Email" required id="email">
+                  <input type="email" class="form-control" name="email" placeholder="Your Email" required>
                 </div>
 
                 <div class="col-md-12">
-                  <input type="text" class="form-control" name="subject" placeholder="Subject" required id="00N2x000002rwFT">
+                  <input type="text" class="form-control" name="subject" placeholder="Subject" required>
                 </div>
 
                 <div class="col-md-12">
-                  <textarea class="form-control" name="description" rows="6" placeholder="Description" required></textarea>
+                  <textarea class="form-control" name="message" rows="6" placeholder="Message" required></textarea>
                 </div>
 
                 <div class="col-md-12 text-center">
@@ -1295,7 +1240,7 @@
 
               </div>
             </form>
-              -->
+
           </div>
 
         </div>
